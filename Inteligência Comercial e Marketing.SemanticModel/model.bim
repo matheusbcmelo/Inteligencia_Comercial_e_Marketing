@@ -1,0 +1,254 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"dados_censurados\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.138.1452.0 (24.11)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "pt-BR",
+    "cultures": [
+      {
+        "name": "pt-BR",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "dados_censurados",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6c91279a-c820-4f15-a181-e93ad956cccc",
+            "sourceColumn": "Ano",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Cidade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d8fc2267-fa99-4f57-a49e-734ad40046eb",
+            "sourceColumn": "Cidade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Código",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "27a37a49-221a-470e-bc93-386e9b0d86ff",
+            "sourceColumn": "Código",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Curva ABC",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "caacc99e-043a-4065-a21d-7058585b8a14",
+            "sourceColumn": "Curva ABC",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Índice de Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5a0e6ecc-2754-4738-be1b-ac5505760841",
+            "sourceColumn": "Índice de Mês",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a58ef990-e252-40ad-963c-0837babb84b3",
+            "sourceColumn": "Mês",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Nome do Produto",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "61c5c789-1153-4048-94bf-561f19c2f90b",
+            "sourceColumn": "Nome do Produto",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Quantidade de Vendas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8eff317d-bc56-4e66-8356-efde265b2e29",
+            "sourceColumn": "Quantidade de Vendas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Unidade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3983b537-b12b-4082-b4d7-db7b216054ce",
+            "sourceColumn": "Unidade",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Valor Total",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "5c5c025d-6ae0-4b38-bc34-eb783500fc26",
+            "sourceColumn": "Valor Total",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Preço",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"pt-BR\"}"
+              }
+            ],
+            "dataType": "decimal",
+            "formatString": "\"R$\"\\ #,0.###############;-\"R$\"\\ #,0.###############;\"R$\"\\ #,0.###############",
+            "lineageTag": "3c2ddd6e-e5d8-4262-b001-d8b35808ad9d",
+            "sourceColumn": "Preço",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "073c70c4-6ecd-4321-add5-9f47dab6cd95",
+        "partitions": [
+          {
+            "name": "dados_censurados",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromColumns({Lines.FromBinary(File.Contents(\"C:\\Users\\jussi\\Dropbox\\PC\\Documents\\Projetos Spyder\\Censurar Dados - Holística\\Censurar Dados - Holística\\dados_censurados.csv\"), null, null, 65001)}),",
+                "    #\"Removed Top Rows\" = Table.Skip(Source, 1),",
+                "    #\"Split Column by Delimiter\" = Table.SplitColumn(#\"Removed Top Rows\", \"Column1\", Splitter.SplitTextByEachDelimiter({\",\"}, QuoteStyle.None), {\"Column1\", \"Column2\"}),",
+                "    #\"Split Column by Delimiter1\" = Table.SplitColumn(#\"Split Column by Delimiter\", \"Column2\", Splitter.SplitTextByEachDelimiter({\",\"}, QuoteStyle.None), {\"Column2\", \"Column3\"}),",
+                "    #\"Split Column by Delimiter2\" = Table.SplitColumn(#\"Split Column by Delimiter1\", \"Column3\", Splitter.SplitTextByEachDelimiter({\".0,\"}, QuoteStyle.None), {\"Column3\", \"Column4\"}),",
+                "    #\"Split Column by Delimiter3\" = Table.SplitColumn(#\"Split Column by Delimiter2\", \"Column4\", Splitter.SplitTextByEachDelimiter({\",\"}, QuoteStyle.None), {\"Column4\", \"Column5\"}),",
+                "    #\"Split Column by Delimiter4\" = Table.SplitColumn(#\"Split Column by Delimiter3\", \"Column5\", Splitter.SplitTextByEachDelimiter({\".0,\"}, QuoteStyle.None), {\"Column5\", \"Column6\"}),",
+                "    #\"Split Column by Delimiter5\" = Table.SplitColumn(#\"Split Column by Delimiter4\", \"Column6\", Splitter.SplitTextByEachDelimiter({\",\"}, QuoteStyle.None), {\"Column6\", \"Column7\"}),",
+                "    #\"Split Column by Delimiter6\" = Table.SplitColumn(#\"Split Column by Delimiter5\", \"Column7\", Splitter.SplitTextByEachDelimiter({\",\"}, QuoteStyle.None), {\"Column7\", \"Column8\"}),",
+                "    #\"Split Column by Delimiter7\" = Table.SplitColumn(#\"Split Column by Delimiter6\", \"Column8\", Splitter.SplitTextByEachDelimiter({\",\"}, QuoteStyle.None), {\"Column8\", \"Column9\"}),",
+                "    #\"Split Column by Delimiter8\" = Table.SplitColumn(#\"Split Column by Delimiter7\", \"Column9\", Splitter.SplitTextByEachDelimiter({\".0,\"}, QuoteStyle.None), {\"Column9\", \"Column10\"}),",
+                "    #\"Split Column by Delimiter9\" = Table.SplitColumn(#\"Split Column by Delimiter8\", \"Column10\", Splitter.SplitTextByEachDelimiter({\",\"}, QuoteStyle.None), {\"Column10\", \"Column11\"}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Split Column by Delimiter9\", {{\"Column1\", \"Ano\"}, {\"Column2\", \"Cidade\"}, {\"Column3\", \"Código\"}, {\"Column4\", \"Curva ABC\"}, {\"Column5\", \"Índice de Mês\"}, {\"Column6\", \"Mês\"}, {\"Column7\", \"Nome do Produto\"}, {\"Column8\", \"Preço\"}, {\"Column9\", \"Quantidade de Vendas\"}, {\"Column10\", \"Unidade\"}, {\"Column11\", \"Valor Total\"}}),",
+                "    #\"Filtered Rows\" = Table.SelectRows(#\"Renamed Columns\", each ([Cidade] = \"Pr***\" or [Cidade] = \"Sa***\")),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Filtered Rows\",{{\"Quantidade de Vendas\", Int64.Type}, {\"Unidade\", Int64.Type}, {\"Índice de Mês\", Int64.Type}, {\"Código\", Int64.Type}, {\"Ano\", Int64.Type}, {\"Valor Total\", type text}}),",
+                "    #\"Added Custom\" = Table.AddColumn(#\"Changed Type\", \"Valor Total Ajustado\", each Number.FromText(Text.Replace([Valor Total], \".\", \",\"))),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Added Custom\",{\"Valor Total\"}),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Removed Columns\",{{\"Valor Total Ajustado\", type number}}),",
+                "    #\"Added Custom1\" = Table.AddColumn(#\"Changed Type1\", \"Preço Ajustado\", each Number.FromText(Text.Replace([Preço], \".\", \",\"))),",
+                "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Added Custom1\",{\"Ano\", \"Cidade\", \"Código\", \"Curva ABC\", \"Índice de Mês\", \"Mês\", \"Nome do Produto\", \"Preço\", \"Preço Ajustado\", \"Quantidade de Vendas\", \"Unidade\", \"Valor Total Ajustado\"}),",
+                "    #\"Removed Columns1\" = Table.RemoveColumns(#\"Reordered Columns\",{\"Preço\"}),",
+                "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Removed Columns1\",{{\"Preço Ajustado\", \"Preço\"}, {\"Valor Total Ajustado\", \"Valor Total\"}}),",
+                "    #\"Changed Type2\" = Table.TransformColumnTypes(#\"Renamed Columns1\",{{\"Preço\", Currency.Type}})",
+                "in",
+                "    #\"Changed Type2\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

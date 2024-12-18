@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Inteligência Comercial e Marketing"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f3944539-01ec-4e5d-a7ea-7d17155c08b9"
+  }
+}

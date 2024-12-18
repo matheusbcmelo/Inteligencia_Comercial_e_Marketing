@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Inteligência Comercial e Marketing"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e617a237-4136-4935-821d-f243f6bb6ddf"
+  }
+}
